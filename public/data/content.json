@@ -1,0 +1,66 @@
+{
+  "navigation": {
+    "logo": {
+      "src": "/images/logo.svg",
+      "alt": "Grafterr"
+    },
+    "links": [
+      { "label": "Products", "href": "#products" },
+      { "label": "Solutions", "href": "#solutions" }
+    ],
+    "cta": {
+      "label": "Book a Demo",
+      "href": "#demo"
+    }
+  },
+  "hero": {
+    "headlinePrefix": "Looking for a new",
+    "headlineGradient": "technology provider?",
+    "subheadlineParts": [
+      { "text": "Explore our " },
+      { "text": "success stories", "bold": true },
+      { "text": " to see how businesses like yours have transformed with Grafterr's technology." }
+    ],
+    "cta": {
+      "label": "Learn more",
+      "href": "#learn-more"
+    }
+  },
+  "featuresSection": {
+    "titlePrefix": "More ways",
+    "titleAccent": "Grafterr",
+    "titleSuffix": "can help you grow your business",
+    "subtitle": "An award-winning, end-to-end restaurant technology & payments platform, designed to streamline food service and automate complex venue operations",
+    "shapes": [
+      { "type": "circle", "color": "teal", "position": "left" },
+      { "type": "triangle", "color": "coral", "position": "right" }
+    ],
+    "products": [
+      {
+        "id": "pos",
+        "title": "Point of sale",
+        "image": "/images/product-pos.svg"
+      },
+      {
+        "id": "self-service",
+        "title": "Self-service",
+        "image": "/images/product-self-service.svg"
+      },
+      {
+        "id": "kitchen",
+        "title": "Kitchen management",
+        "image": "/images/product-kitchen.svg"
+      }
+    ]
+  },
+  "carousel": {
+    "itemsPerView": {
+      "mobile": 1,
+      "tablet": 2,
+      "desktop": 3
+    },
+    "showArrows": true,
+    "showDots": false,
+    "transitionMs": 300
+  }
+}

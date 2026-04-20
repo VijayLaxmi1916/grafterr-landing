@@ -1,0 +1,84 @@
+:root {
+  /* Brand palette */
+  --color-bg: #ffffff;
+  --color-surface: #fafafa;
+  --color-surface-alt: #f4f5f7;
+  --color-ink: #0b1020;
+  --color-ink-soft: #1a2033;
+  --color-muted: #5b6478;
+  --color-border: #e7e9ef;
+
+  /* Accents */
+  --color-gradient-start: #3b82f6;
+  --color-gradient-end: #f97316;
+  --color-teal: #14b8a6;
+  --color-coral: #fb7185;
+
+  /* Gradients */
+  --gradient-brand: linear-gradient(90deg, #3b82f6 0%, #f97316 100%);
+  --gradient-brand-soft: linear-gradient(
+    90deg,
+    rgba(59, 130, 246, 0.12) 0%,
+    rgba(249, 115, 22, 0.12) 100%
+  );
+
+  /* Typography */
+  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extra: 800;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-md: 1.125rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.5rem;
+  --text-2xl: 2rem;
+  --text-3xl: 2.5rem;
+  --text-hero: clamp(2.25rem, 5vw, 4rem);
+
+  /* Spacing */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+
+  /* Layout */
+  --container-max: 1200px;
+  --container-padding: clamp(20px, 4vw, 48px);
+  --section-padding-y: clamp(64px, 8vw, 112px);
+
+  /* Radii */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-pill: 999px;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(15, 23, 42, 0.05);
+  --shadow-md: 0 10px 30px rgba(15, 23, 42, 0.08);
+  --shadow-lg: 0 24px 60px rgba(15, 23, 42, 0.12);
+  --shadow-cta: 0 14px 30px rgba(59, 130, 246, 0.28);
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur-fast: 180ms;
+  --dur-base: 300ms;
+  --dur-slow: 600ms;
+
+  /* Breakpoints (for reference in JS) */
+  --bp-tablet: 768px;
+  --bp-desktop: 1024px;
+}

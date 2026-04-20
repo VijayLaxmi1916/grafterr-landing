@@ -1,0 +1,82 @@
+.wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.viewport {
+  overflow: hidden;
+  padding: 4px 2px 8px;
+  margin: -4px -2px -8px;
+}
+
+.track {
+  display: flex;
+  align-items: stretch;
+  transition-property: transform;
+  transition-timing-function: var(--ease-out);
+  will-change: transform;
+}
+
+.slide {
+  list-style: none;
+  min-width: 0;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-4);
+  margin-top: var(--space-10);
+}
+
+.arrow {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--color-surface-alt);
+  color: var(--color-ink);
+  border: 0;
+  transition:
+    transform var(--dur-fast) var(--ease-out),
+    background var(--dur-base) var(--ease-out),
+    color var(--dur-base) var(--ease-out);
+}
+
+.arrow:hover:not(:disabled) {
+  background: var(--gradient-brand);
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+.arrow:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: var(--space-5);
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--color-border);
+  transition:
+    width var(--dur-base) var(--ease-out),
+    background var(--dur-base) var(--ease-out);
+}
+
+.activeDot {
+  width: 24px;
+  border-radius: var(--radius-pill);
+  background: var(--gradient-brand);
+}
